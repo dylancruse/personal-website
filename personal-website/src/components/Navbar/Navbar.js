@@ -1,13 +1,15 @@
-import React from 'react'
+import React, { Component } from 'react'
 
 import './Navbar.css'
 
-const Navbar = () => {
-  return (
-    <div className="Navbar">
-      <p>This is the navbar</p>
-    </div>
-  )
+class Navbar extends Component {
+  render() {
+    return (
+      <div className="Navbar">
+        <p>This is the navbar</p>
+      </div>
+    )
+  }
 }
 
 export default Navbar
