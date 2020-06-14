@@ -1,5 +1,12 @@
 .Hero {
-  background-color: aliceblue;
   width: 90vw;
-  height: 50vh;
+  height: 80vh;
+  background-color: var(--green);
+  box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.5);
+  border-radius: 0.5%;
+  margin-top: 5vh;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-around;
 }
