@@ -1,0 +1,9 @@
+.PageWrapper {
+  height: 100vh;
+  width: 100vw;
+  background-color: royalblue;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
