@@ -6,6 +6,7 @@ body {
   --yellow: #FFE066;
   --blue: #247BA0;
   --green: #70C1B3;
+  font-size: 10px;
   color: var(--grey);
   margin: 0;
   padding: 0;
@@ -19,4 +20,12 @@ body {
 
 *, *:before, *:after {
   box-sizing: inherit;
+}
+
+p {
+  font-size: 1rem;
+}
+
+h1 {
+  font-size: 2rem;
 }

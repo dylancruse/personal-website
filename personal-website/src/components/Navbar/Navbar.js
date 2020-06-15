@@ -1,12 +1,13 @@
 import React, { Component } from 'react'
 
 import './Navbar.css'
+import NavItem from '../NavItem/NavItem'
 
 class Navbar extends Component {
   render() {
     return (
       <div className="Navbar">
-        <p>This is the navbar</p>
+        <NavItem text={'Dylan Cruse'} />
       </div>
     )
   }
