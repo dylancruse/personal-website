@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import './PageWrapper.css'
-import Hero from '../Hero/Hero'
+import Hero from '../Hero'
 
 class PageWrapper extends Component {
   render() {

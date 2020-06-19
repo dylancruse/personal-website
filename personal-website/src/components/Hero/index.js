@@ -1,12 +1,15 @@
 import React, { Component } from 'react'
 
 import './Hero.css'
+import '../Picture'
+import photo from '../../assets/img/photo.jpg'
+import Picture from '../Picture'
 
 class Hero extends Component {
   render() {
     return (
       <div className="Hero">
-        <h1>Picture</h1>
+        <Picture image={photo}/>
         <p>Text</p>
       </div>
     )

@@ -1,7 +1,7 @@
 import React, { Component } from 'react'
 
 import './Navbar.css'
-import NavItem from '../NavItem/NavItem'
+import NavItem from '../NavItem'
 
 class Navbar extends Component {
   render() {

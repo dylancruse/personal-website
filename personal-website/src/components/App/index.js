@@ -1,8 +1,8 @@
 import React, { Component } from 'react'
 
 import './App.css'
-import Navbar from '../Navbar/Navbar'
-import PageWrapper from '../PageWrapper/PageWrapper'
+import Navbar from '../Navbar'
+import PageWrapper from '../PageWrapper'
 
 class App extends Component {
   render() {
