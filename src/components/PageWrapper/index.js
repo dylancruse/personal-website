@@ -7,6 +7,7 @@ class PageWrapper extends Component {
   render() {
     return (
       <div className="PageWrapper">
+        
         <Hero />
       </div>
     )
