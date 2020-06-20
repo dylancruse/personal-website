@@ -1,3 +1,10 @@
 .menu {
-  
+  background-color: var(--grey);
+  height: 500px;
+  width: 20vw;
+  margin-top: 5vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  text-align: center;
 }

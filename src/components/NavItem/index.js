@@ -10,7 +10,7 @@ class NavItem extends Component {
 
     return (
       <div className='nav-item'>
-        <p>{text}</p>
+        <p className='nav-item__text'>{text}</p>
       </div>
     )
   }

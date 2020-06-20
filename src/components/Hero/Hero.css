@@ -2,7 +2,7 @@
   width: 75vw;
   height: 90vh;
   background-color: var(--green);
-  box-shadow: 10px 15px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
   border-radius: 0.5%;
   margin-top: 5vh;
   display: flex;
@@ -11,8 +11,8 @@
   justify-content: space-evenly;
 }
 
-p {
-  font-size: 1rem;
+.hero-text {
+  font-size: 1.25rem;
 }
 
 span {

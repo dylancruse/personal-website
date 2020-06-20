@@ -11,15 +11,15 @@ class Hero extends Component {
       <div className='hero'>
         <Picture image={photo}/>
         <div>
-          <p>
+          <p className='hero-text'>
             <span role='img' aria-label='computer'>💻</span>
             Web Developer
           </p>
-          <p>
+          <p className='hero-text'>
             <span role='img' aria-label='mountain'>⛰️</span>
             Rock Climber
           </p>
-          <p>
+          <p className='hero-text'>
             <span role='img' aria-label='house'>🏡</span>
             Kansas City, MO
           </p>
