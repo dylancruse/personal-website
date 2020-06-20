@@ -8,9 +8,22 @@ import Picture from '../Picture'
 class Hero extends Component {
   render() {
     return (
-      <div className="Hero">
+      <div className='hero'>
         <Picture image={photo}/>
-        <p>Text</p>
+        <div>
+          <p>
+            <span role='img' aria-label='computer'>💻</span>
+            Web Developer
+          </p>
+          <p>
+            <span role='img' aria-label='mountain'>⛰️</span>
+            Rock Climber
+          </p>
+          <p>
+            <span role='img' aria-label='house'>🏡</span>
+            Kansas City, MO
+          </p>
+        </div>
       </div>
     )
   }

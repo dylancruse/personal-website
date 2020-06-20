@@ -7,7 +7,7 @@ import MenuButton from '../MenuButton'
 class Navbar extends Component {
   render() {
     return (
-      <div className="Navbar">
+      <div className='navbar'>
         <MenuButton toggleMenu={this.props.toggleMenu} />
         <NavItem text={'Dylan Cruse'} />
       </div>

@@ -6,8 +6,7 @@ import Hero from '../Hero'
 class PageWrapper extends Component {
   render() {
     return (
-      <div className="PageWrapper">
-        
+      <div className='page-wrapper'>
         <Hero />
       </div>
     )

@@ -1,8 +1,8 @@
-.PictureWrapper {
+.picture-wrapper {
   width: 30%;
 }
 
-.Picture {
+.picture {
   width: 100%;
   border-radius: 50%;
 }

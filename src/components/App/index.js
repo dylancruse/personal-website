@@ -11,13 +11,13 @@ class App extends Component {
   }
 
   toggleMenu = () => {
-    console.log('clicked')
+    console.log('Menu button clicked')
     this.setState({ showMenu: !this.state.showMenu })
   }
 
   render() {
     return (
-      <div className="App">
+      <div className='app'>
         <Navbar toggleMenu={this.toggleMenu} />
         <PageWrapper />
       </div>

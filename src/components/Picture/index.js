@@ -8,8 +8,8 @@ class Picture extends Component {
     const { image } = this.props
 
     return (
-      <div className="PictureWrapper">
-        <img src={image} alt="Author" className="Picture"/>
+      <div className='picture-wrapper'>
+        <img src={image} alt='Author' className='picture'/>
       </div>
     )
   }

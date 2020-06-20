@@ -9,7 +9,7 @@ class NavItem extends Component {
     const { text } = this.props
 
     return (
-      <div className="NavItem">
+      <div className='nav-item'>
         <p>{text}</p>
       </div>
     )

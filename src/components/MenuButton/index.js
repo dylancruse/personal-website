@@ -9,11 +9,10 @@ class MenuButton extends Component {
     return (
       <FontAwesomeIcon 
         icon={faBars}
-        size={"2x"}
+        size={'2x'}
         onClick={this.props.toggleMenu} 
-        className="MenuButton" 
+        className='menu-btn' 
       />
-      // <button onClick={this.props.toggleMenu} className="MenuButton">Menu</button>
     )
   }
 }
