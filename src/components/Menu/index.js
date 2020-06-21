@@ -13,8 +13,9 @@ class Menu extends Component {
     // Return a MenuItem for each page
     return (
       <div className='menu'>
-        {/* <h3 className='menu__header'><i>Links</i></h3> */}
-        {pages.map(page => <MenuItem path={page.path} title={page.title} hideMenu={hideMenu} />)}
+        {pages.map(page => (
+          <MenuItem path={page.path} title={page.title} hideMenu={hideMenu} key={page.path}/>
+        ))}
       </div>
     )
   }

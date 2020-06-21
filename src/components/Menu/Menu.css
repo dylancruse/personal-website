@@ -1,4 +1,5 @@
 .menu {
+  width: 25vw;
   background-color: var(--blue);
   border: 1px solid var(--white);
   margin-top: 5vh;
