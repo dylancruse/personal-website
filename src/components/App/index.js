@@ -1,27 +1,49 @@
 import React, { Component } from 'react'
+import { BrowserRouter as Router } from 'react-router-dom'
 
 import './App.css'
 import Navbar from '../Navbar'
 import Menu from '../Menu'
 import PageWrapper from '../PageWrapper'
 
+// Main App component
 class App extends Component {
 
+  // Global state
   state = {
-    showMenu: false
+    showMenu: false,
+    pages: [{
+      path: '/',
+      title: '🏠 Home'
+    }, {
+      path: '/dadjokes',
+      title: '🤷‍♂️ Dad Jokes'
+    }]
   }
 
+  // Open/close the menu
   toggleMenu = () => {
-    console.log('Menu button clicked')
     this.setState({ showMenu: !this.state.showMenu })
+  }
+
+  // Used by links to close the menu when clicked
+  hideMenu = () => {
+    this.setState({ showMenu: false })
   }
 
   render() {
     return (
       <div className='app'>
-        <Navbar toggleMenu={this.toggleMenu} />
-        {this.state.showMenu && <Menu />}
-        <PageWrapper />
+        <Router>
+
+          <Navbar toggleMenu={this.toggleMenu} />
+
+          {/* Show the menu if showMenu state is true */}
+          {this.state.showMenu && <Menu pages={this.state.pages} hideMenu={this.hideMenu} />}
+
+          <PageWrapper />
+          
+        </Router>
       </div>
     )
   }

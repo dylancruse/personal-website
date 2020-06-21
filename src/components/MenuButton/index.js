@@ -6,6 +6,8 @@ import './MenuButton.css'
 
 class MenuButton extends Component {
   render() {
+
+    // Returns the bars svg used in the navbar to open the menu
     return (
       <FontAwesomeIcon 
         icon={faBars}

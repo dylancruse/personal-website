@@ -1,7 +1,7 @@
 .page-wrapper {
   height: 100vh;
   width: 100vw;
-  /* background: repeating-linear-gradient(-45deg, var(--blue), var(--blue) 50px, var(--green) 50px, var(--green) 100px); */
+  /* background: repeating-linear-gradient(-45deg, var(--grey), var(--grey) 50px, var(--blue) 50px, var(--green) 100px); */
   background-color: var(--white);
   display: flex;
   flex-direction: column;

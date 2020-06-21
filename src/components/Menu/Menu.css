@@ -1,10 +1,20 @@
 .menu {
-  background-color: var(--grey);
-  height: 500px;
-  width: 20vw;
+  background-color: var(--blue);
+  border: 1px solid var(--white);
   margin-top: 5vh;
   position: fixed;
   top: 0;
   left: 0;
-  text-align: center;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.menu__header {
+  margin: 0;
+  padding-left: 1rem;
+  background-color: var(--white);
+  border: 1px solid var(--blue);
+  color: var(--grey);
+  font-weight: 500;
 }
