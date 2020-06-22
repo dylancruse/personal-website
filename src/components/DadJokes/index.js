@@ -29,9 +29,15 @@ class DadJokes extends Component {
     }
 
     // Add the joke to state
-    this.setState({
-      dadJoke: response.data.joke
-    })
+    if (response && response.data && response.data.joke) {
+      this.setState({
+        dadJoke: response.data.joke
+      })
+    } else {
+      this.setState({
+        dadJoke: 'Unable to get joke :('
+      })
+    }
   }
 
   // Function to fetch a new joke 
@@ -46,9 +52,15 @@ class DadJokes extends Component {
     }
 
     // Add the joke to state
-    this.setState({
-      dadJoke: response.data.joke
-    })
+    if (response && response.data && response.data.joke) {
+      this.setState({
+        dadJoke: response.data.joke
+      })
+    } else {
+      this.setState({
+        dadJoke: 'Unable to get joke :('
+      })
+    }
   }
 
   render() {
