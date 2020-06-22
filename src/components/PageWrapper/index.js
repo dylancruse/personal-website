@@ -4,6 +4,7 @@ import { Route } from 'react-router-dom'
 import './PageWrapper.css'
 import Hero from '../Hero'
 import DadJokes from '../DadJokes'
+import GraphQL from '../GraphQL'
 
 
 // Wraps all main components and routes
@@ -16,9 +17,14 @@ class PageWrapper extends Component {
             <Hero />
           </Route>
 
-          {/* Dad jokes */}
+          {/* Dad jokes page */}
           <Route path='/dadjokes'> 
             <DadJokes />
+          </Route>
+
+          {/* GraphQL page */}
+          <Route path='/graphql'>
+            <GraphQL />
           </Route>
       </div>
     )

@@ -18,6 +18,9 @@ class App extends Component {
     }, {
       path: '/dadjokes',
       title: '🤷‍♂️ Dad Jokes'
+    }, {
+      path: '/graphql',
+      title: '🚀 GraphQL'
     }]
   }
 
