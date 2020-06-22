@@ -60,9 +60,11 @@ class GraphQL extends Component {
     }
 
     // Add the messages to state
-    this.setState({
-      messages: response.data.data.messages.edges
-    })
+    if (response && response.data && response.data.data && response.data.data.messages) {
+      this.setState({
+        messages: response.data.data.messages.edges
+      })
+    }
   }
 
 
