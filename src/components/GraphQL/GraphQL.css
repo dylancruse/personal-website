@@ -1,5 +1,5 @@
 .graphql {
-  background-color: var(--blue);
+  background-color: var(--grey);
   color: var(--white);
   width: 75vw;
   height: 90vh;
@@ -45,7 +45,9 @@
 
 .graphql_create-msg-btn {
   font-size: 1.1rem;
-  background-color: var(--grey);
+  background-color: var(--green);
+  color: var(--grey);
+  border: none;
   color: var(--white);
   margin: 1rem;
   width: 30vw;

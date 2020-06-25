@@ -5,6 +5,7 @@ import './App.css'
 import Navbar from '../Navbar'
 import Menu from '../Menu'
 import PageWrapper from '../PageWrapper'
+import Footer from '../Footer'
 
 // Main App component
 class App extends Component {
@@ -45,6 +46,8 @@ class App extends Component {
           {this.state.showMenu && <Menu pages={this.state.pages} hideMenu={this.hideMenu} />}
 
           <PageWrapper />
+
+          <Footer />
           
         </Router>
       </div>
