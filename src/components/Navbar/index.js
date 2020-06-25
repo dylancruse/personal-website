@@ -1,18 +1,16 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import './Navbar.css'
 import NavItem from '../NavItem'
 import MenuButton from '../MenuButton'
 
-class Navbar extends Component {
-  render() {
-    return (
-      <div className='navbar'>
-        <MenuButton toggleMenu={this.props.toggleMenu} />
-        <NavItem text={'Dylan Cruse'} />
-      </div>
-    )
-  }
-}
+const Navbar = ({ toggleMenu }) => (
+  <div className='navbar'>
+
+    <MenuButton toggleMenu={toggleMenu} />
+    <NavItem text={'Dylan Cruse'} path={'/'} />
+
+  </div>
+)
 
 export default Navbar

@@ -1,20 +1,14 @@
-import React, { Component } from 'react'
+import React from 'react'
 
 import './Picture.css'
 
-class Picture extends Component {
-  render() {
-    
-    // Destructure props
-    const { image } = this.props
+// Return a picture using the source prop
+const Picture = ({ source, alt }) => (
+  <div className='picture-wrapper'>
 
-    // Return a picture with the image prop as its source
-    return (
-      <div className='picture-wrapper'>
-        <img src={image} alt='Author' className='picture'/>
-      </div>
-    )
-  }
-}
+    <img src={source} alt={alt} className='picture'/>
+    
+  </div>
+)
 
 export default Picture
