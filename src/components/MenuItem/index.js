@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import './MenuItem.css'
 
+
 // Return a link to a page (that hides the menu when clicked)
 const MenuItem = ({ path, title, hideMenu }) => (
 

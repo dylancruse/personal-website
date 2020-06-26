@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 
 import './NavItem.css'
 
+
 // Navbar item component
 const NavItem = ({ text, path }) => (
   <div className='nav-item'>

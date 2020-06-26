@@ -4,6 +4,7 @@ import './Navbar.css'
 import NavItem from '../NavItem'
 import MenuButton from '../MenuButton'
 
+
 const Navbar = ({ toggleMenu }) => (
   <div className='navbar'>
 

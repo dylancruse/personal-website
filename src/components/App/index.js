@@ -7,6 +7,7 @@ import Menu from '../Menu'
 import PageWrapper from '../PageWrapper'
 import Footer from '../Footer'
 
+
 // Main App component
 class App extends Component {
 

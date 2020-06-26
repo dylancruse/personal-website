@@ -25,7 +25,7 @@ const PageWrapper = () => (
       <Route path='/graphql'>
         <GraphQL />
       </Route>
-      
+
   </div>
 )
 

@@ -5,6 +5,7 @@ import '../Picture'
 import photo from '../../assets/img/photo.jpg'
 import Picture from '../Picture'
 
+
 // Primary component on homepage
 const Hero = () => (
   <div className='hero'>

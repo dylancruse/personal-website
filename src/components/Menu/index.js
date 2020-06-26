@@ -3,6 +3,7 @@ import React from 'react'
 import './Menu.css'
 import MenuItem from '../MenuItem'
 
+
 // Popup menu (currently used to display page links)
 const Menu = ({ pages, hideMenu }) => (
   <div className='menu'>
