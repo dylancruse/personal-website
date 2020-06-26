@@ -46,6 +46,7 @@
 .graphql_create-msg-btn {
   font-size: 1.1rem;
   background-color: var(--green);
+  box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
   color: var(--grey);
   border: none;
   color: var(--white);
