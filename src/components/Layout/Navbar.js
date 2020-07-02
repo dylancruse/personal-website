@@ -1,8 +1,7 @@
 import React from 'react'
 
-import './Navbar.css'
-import NavItem from '../NavItem'
-import MenuButton from '../MenuButton'
+import NavItem from './NavItem'
+import MenuButton from './MenuButton'
 
 
 const Navbar = ({ toggleMenu }) => (

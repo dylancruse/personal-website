@@ -1,0 +1,99 @@
+// --------------- Navbar ---------------
+.navbar {
+  width: 100vw;
+  height: 5vh;
+  color: $white;
+  background-color: $blue;
+  opacity: 0.95;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+  border-bottom: 1px solid $grey;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  margin: 0px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.nav-item {
+  margin: 0 25px;
+}
+
+.nav-item__text {
+  font-size: 1.1rem;
+  color: $white;
+  text-decoration: none;
+}
+
+.nav-item__text:hover {
+  font-size: 1.125rem;
+}
+
+
+// --------------- Menu ---------------
+.menu {
+  width: 25vw;
+  background-color: $blue;
+  border: 1px solid $white;
+  margin-top: 5vh;
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.5);
+}
+
+.menu-item {
+  font-size: 1.25rem;
+  background-color: $blue;
+  color: $white;
+  text-decoration: none;
+  border: 1px solid $white;
+  padding: 1rem 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.menu-item:hover {
+  font-size: 1.3rem;
+}
+
+.menu-btn {
+  margin-left: 1.5rem;
+  cursor: pointer;
+}
+
+.menu-btn:hover {
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+
+// --------------- Page Wrapper ---------------
+.page-wrapper {
+  width: 100vw;
+  height: 100vh;
+  /* background: repeating-linear-gradient(-45deg, var(--grey), var(--grey) 50px, var(--blue) 50px, var(--green) 100px); */
+  background-color: $white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+
+// --------------- Footer ---------------
+.footer {
+  width: 100vw;
+  height: 50vh;
+  margin-top: 5vh;
+  background-color: $blue;
+  color: $white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}

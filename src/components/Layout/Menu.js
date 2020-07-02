@@ -1,7 +1,6 @@
 import React from 'react'
 
-import './Menu.css'
-import MenuItem from '../MenuItem'
+import MenuItem from './MenuItem'
 
 
 // Popup menu (currently used to display page links)

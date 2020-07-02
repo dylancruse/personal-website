@@ -1,9 +1,7 @@
 import React from 'react'
 
-import './Hero.css'
-import '../Picture'
-import photo from '../../assets/img/photo.jpg'
-import Picture from '../Picture'
+import Picture from './Picture.js'
+import photo from './../assets/img/photo.jpg'
 
 
 // Primary component on homepage

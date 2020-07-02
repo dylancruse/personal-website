@@ -1,7 +1,5 @@
 import React from 'react'
 
-import './Picture.css'
-
 
 // Return a picture using the source prop
 const Picture = ({ source, alt }) => (

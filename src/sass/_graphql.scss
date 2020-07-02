@@ -1,6 +1,6 @@
 .graphql {
-  background-color: var(--grey);
-  color: var(--white);
+  background-color: $grey;
+  color: $white;
   width: 75vw;
   height: 90vh;
   margin-top: 5vh;
@@ -13,11 +13,11 @@
 }
 
 .graphql_messages-header {
-  color: var(--white);
+  color: $white;
 }
 
 .graphql_messages-wrapper {
-  background-color: var(--white);
+  background-color: $white;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
   width: 90%;
   height: 50%;
@@ -27,8 +27,8 @@
 }
 
 .graphql__message {
-  color: var(--grey);
-  border-bottom: 1px solid var(--black);
+  color: $grey;
+  border-bottom: 1px solid $black;
   text-align: center;
 }
 
@@ -45,11 +45,11 @@
 
 .graphql_create-msg-btn {
   font-size: 1.1rem;
-  background-color: var(--green);
+  background-color: $green;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
-  color: var(--grey);
+  color: $grey;
   border: none;
-  color: var(--white);
+  color: $white;
   margin: 1rem;
   width: 30vw;
   height: 5vh;

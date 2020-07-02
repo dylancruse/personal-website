@@ -1,8 +1,6 @@
 import React, { Component } from 'react'
 import axios from 'axios'
 
-import './DadJokes.css'
-
 
 class DadJokes extends Component {
 

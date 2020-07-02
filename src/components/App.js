@@ -1,11 +1,11 @@
 import React, { Component } from 'react'
 import { BrowserRouter as Router } from 'react-router-dom'
 
-import './App.css'
-import Navbar from '../Navbar'
-import Menu from '../Menu'
-import PageWrapper from '../PageWrapper'
-import Footer from '../Footer'
+import './../sass/main.scss'
+import Navbar from './Layout/Navbar'
+import Menu from './Layout/Menu'
+import PageWrapper from './Layout/PageWrapper'
+import Footer from './Layout/Footer'
 
 
 // Main App component
