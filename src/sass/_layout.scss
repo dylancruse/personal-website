@@ -26,10 +26,10 @@
   font-size: 1.1rem;
   color: $white;
   text-decoration: none;
-}
 
-.nav-item__text:hover {
-  font-size: 1.125rem;
+  &:hover {
+    font-size: 1.125rem;
+  }
 }
 
 
@@ -57,19 +57,19 @@
   display: flex;
   justify-content: center;
   align-items: center;
-}
 
-.menu-item:hover {
-  font-size: 1.3rem;
+  &:hover {
+    font-size: 1.3rem;
+  }
 }
 
 .menu-btn {
   margin-left: 1.5rem;
   cursor: pointer;
-}
 
-.menu-btn:hover {
-  box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  &:hover {
+    box-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+  }
 }
 
 

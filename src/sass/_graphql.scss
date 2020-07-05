@@ -12,11 +12,11 @@
   justify-content: space-around;
 }
 
-.graphql_messages-header {
+.graphql_messages__header {
   color: $white;
 }
 
-.graphql_messages-wrapper {
+.graphql_messages__wrapper {
   background-color: $white;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);
   width: 90%;
@@ -32,18 +32,18 @@
   text-align: center;
 }
 
-.graphql_create-msg-wrapper {
+.graphql_create-msg__wrapper {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
 
-.graphql_create-msg-input {
+.graphql_create-msg__input {
   margin: 1rem;
   width: 50vw;
 }
 
-.graphql_create-msg-btn {
+.graphql_create-msg__btn {
   font-size: 1.1rem;
   background-color: $green;
   box-shadow: 10px 10px 15px rgba(0, 0, 0, 0.3);

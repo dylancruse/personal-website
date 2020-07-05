@@ -1,4 +1,4 @@
-// --------------- Variables ---------------
+// --------------- Global Variables ---------------
 $black: #212529;
 $white: #f8f9fa;
 $grey: #50514F;
@@ -7,12 +7,14 @@ $yellow: #FFE066;
 $blue: #247BA0;
 $green: #70C1B3;
 
+
 // --------------- Imports ---------------
 @import './layout';
 @import './picture';
 @import './hero';
 @import './graphql';
 @import './dadjokes';
+
 
 body {
   font-size: 10px;
@@ -42,10 +44,6 @@ h1 {
 
 h3 {
   font-size: 1.5rem;
-}
-
-span {
-  margin: 10px;
 }
 
 .app {

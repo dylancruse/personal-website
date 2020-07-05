@@ -17,7 +17,7 @@ class GraphQL extends Component {
   // (obviously don't store an actual token like this)
   config = {
     headers: {
-      'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJkeWxhbmNydXNlQGxpdmUuY29tIiwidXNlcm5hbWUiOiJkeWxhbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTU5Mjc4OTEzOCwiZXhwIjoxNTkzMzg5MTM4fQ.Zuxs5GOWvvhf88EcoUbWojLLdgQoiPI1l7xlUNa-PuM'
+      'x-token': 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpZCI6MywiZW1haWwiOiJkeWxhbmNydXNlQGxpdmUuY29tIiwidXNlcm5hbWUiOiJkeWxhbiIsInJvbGUiOiJBRE1JTiIsImlhdCI6MTU5Mzk4NDUwMCwiZXhwIjoxNTk0NTg0NTAwfQ.0ZwvpVsnytgvyZynk7gbjTgN4a_132sM0t6m09hl66A'
     }
   }
 
@@ -32,8 +32,8 @@ class GraphQL extends Component {
     // Query to get messages
     const query = `
       query messages {
-        messages {
-          edges {
+        getMessages {
+          messages {
             id
             text
             userId
@@ -59,9 +59,9 @@ class GraphQL extends Component {
     }
 
     // Add the messages to state
-    if (response && response.data && response.data.data && response.data.data.messages) {
+    if (response && response.data && response.data.data && response.data.data.getMessages) {
       this.setState({
-        messages: response.data.data.messages.edges
+        messages: response.data.data.getMessages.messages
       })
     }
   }
@@ -123,9 +123,9 @@ class GraphQL extends Component {
     return (
       <div className='graphql'>
 
-        <h1 className='graphql_messages-header'>Messages</h1>
+        <h1 className='graphql_messages__header'>Messages</h1>
 
-        <div className='graphql_messages-wrapper'>
+        <div className='graphql_messages__wrapper'>
           {/* If there are messages, loop through them and display to page */}
           {this.state.messages && this.state.messages.map(message => (
             <div className='graphql__message' key={message.id}>
@@ -136,7 +136,7 @@ class GraphQL extends Component {
           ))}
         </div>
 
-        <div className='graphql_create-msg-wrapper'>
+        <div className='graphql_create-msg__wrapper'>
           {/* If a new message was created, display it */}
           {this.state.newMessage && 
             <p>
@@ -156,13 +156,13 @@ class GraphQL extends Component {
           <input 
             type='text' 
             value={this.state.input} 
-            className='graphql_create-msg-input'
+            className='graphql_create-msg__input'
             onChange={this.handleInput}
           />
           <button 
             type='submit'
             onClick={this.createMessage}
-            className='graphql_create-msg-btn'
+            className='graphql_create-msg__btn'
           >
             Create Message
           </button>
